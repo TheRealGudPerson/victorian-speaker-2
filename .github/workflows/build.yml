@@ -40,7 +40,7 @@ jobs:
           cp "dist/${plugin_id}@${version}.zip" dist/Victorian-Speaker-install.zip
           mkdir -p public/pool
           cp "dist/${plugin_id}@${version}.zip" "public/pool/${plugin_id}@${version}.zip"
-          bun run generate-index -- --dist public/pool --base-url "https://cryostaticbiker.github.io/victorian-speaker/pool" --out public/index.json
+          bun run generate-index -- --dist public/pool --base-url "https://therealgudperson.github.io/victorian-speaker-2/pool" --out public/index.json
 
       - name: Upload installable plugin
         uses: actions/upload-artifact@v4
