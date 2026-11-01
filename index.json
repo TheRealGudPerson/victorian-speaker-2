@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "name": "Victorian Speaker",
+  "description": "A playful Victorian English rewriter for Revenge.",
+  "plugins": {
+    "therealgudperson.victorian-speaker": {
+      "name": "Victorian Speaker",
+      "description": "Rewrites outgoing messages in one of three Victorian English styles.",
+      "author": "TheRealGudPerson (https://github.com/TheRealGudPerson \"GitHub\")",
+      "channels": {
+        "latest": "0.1.0"
+      },
+      "versions": {
+        "0.1.0": {
+          "url": "https://cryostaticbiker.github.io/victorian-speaker/pool/therealgudperson.victorian-speaker@0.1.0.zip",
+          "sha256": "5ffeddaf55a5bdb4d53037e624d7fdccf9a9ea6902a9c50a9059e532e2a410a3",
+          "size": 2631,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1.2.1 <2"
+            },
+            "discord": {
+              "version": "*"
+            }
+          }
+        }
+      }
+    }
+  }
+}
