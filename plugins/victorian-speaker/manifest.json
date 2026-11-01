@@ -1,9 +1,9 @@
 {
   "format": 1,
-  "id": "cryostaticbiker.victorian-speaker",
+  "id": "therealgudperson.victorian-speaker",
   "name": "Victorian Speaker",
   "description": "Rewrites outgoing messages in one of three Victorian English styles.",
-  "author": "cryostaticbiker (https://github.com/cryostaticbiker \"GitHub\")",
+  "author": "TheRealGudPerson (https://github.com/TheRealGudPerson \"GitHub\")",
   "version": "0.1.0",
   "dependencies": {
     "revenge.api": {
